@@ -1,7 +1,3 @@
-import { inject } from "@vercel/analytics"
-
-inject()
-
 // main.js
 // Handles common UI elements
 
@@ -40,6 +36,15 @@ function initKPITracking() {
       Value: eventValue,
       Timestamp: new Date().toISOString()
     });
+
+    // Push event to Google Analytics (GA4)
+    if (typeof gtag === 'function') {
+      gtag('event', eventAction, {
+        'event_category': eventCategory,
+        'event_label': eventLabel,
+        'value': eventValue
+      });
+    }
   };
 
   // Auto-track page view
