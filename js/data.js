@@ -22,7 +22,7 @@ const products = [
     name: "Juzey Bloom",
     price: 1650,
     category: "Floral",
-    image: "https://images.unsplash.com/photo-1594034183956-62111d4e0e47?auto=format&fit=crop&q=80&w=800",
+    image: "https://assets.woolworthsstatic.co.za/Bloom-Eau-de-Parfum-100ml-508060158.jpg?V=syW9&o=eyJidWNrZXQiOiJ3dy1vbmxpbmUtaW1hZ2UtcmVzaXplIiwia2V5IjoiaW1hZ2VzL2VsYXN0aWNlcmEvcHJvZHVjdHMvaGVyby8yMDI0LTA1LTIyLzUwODA2MDE1OF8xMDBNTF9oZXJvLmpwZyJ9&w=800&q=85",
     notes: "Peony, White Musk, Freesia",
     description: "Soft, romantic, and endlessly captivating. A gentle whisper of white musk grounds the bright, joyful notes of peony and freesia."
   },
@@ -58,7 +58,7 @@ const products = [
     name: "Juzey Nectar",
     price: 1550,
     category: "Fresh",
-    image: "https://images.unsplash.com/photo-1615397323282-311abec27cc7?auto=format&fit=crop&q=80&w=800",
+    image: "https://assets.woolworthsstatic.co.za/Atelier-Amber-Nectar-Eau-de-Parfum-100ml-509526184.jpg?V=XrbK&o=eyJidWNrZXQiOiJ3dy1vbmxpbmUtaW1hZ2UtcmVzaXplIiwia2V5IjoiaW1hZ2VzL2VsYXN0aWNlcmEvcHJvZHVjdHMvaGVyby8yMDI0LTExLTE0LzUwOTUyNjE4NF8xMDBNTF9oZXJvLmpwZyJ9&w=800&q=85",
     notes: "Peach, Mandarin, Green Tea",
     description: "A sparkling and vivacious scent. Sweet peach nectar blends with crisp green tea for an effortlessly chic everyday fragrance."
   },
@@ -67,7 +67,7 @@ const products = [
     name: "Juzey Mystique",
     price: 2200,
     category: "Oriental",
-    image: "https://images.unsplash.com/photo-1595532542520-5029477449ab?auto=format&fit=crop&q=80&w=800",
+    image: "https://beguile.com/cdn/shop/files/mystique_beguile.webp?v=1778643351&width=1800",
     notes: "Frankincense, Dark Cherry, Myrrh",
     description: "An intoxicating evening fragrance. Deep, luscious dark cherry enveloped in ancient, smoky frankincense and myrrh."
   },
